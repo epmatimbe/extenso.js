@@ -16,19 +16,35 @@
     }
   },
   "EUR": {
-    "singular": "euro",
-    "plural": "euros",
+    "singular": "Euro",
+    "plural": "Euros",
     "subunit": {
-      "singular": "cêntimo",
-      "plural": "cêntimos"
+      "singular": "Cêntimo",
+      "plural": "Cêntimos"
     }
   },
   "MZN": {
-    "singular": "metical",
-    "plural": "meticais",
+    "singular": "Metical",
+    "plural": "Meticais",
     "subunit": {
-      "singular": "centavos",
-      "plural": "centavos"
+      "singular": "Centavos",
+      "plural": "Centavos"
+    }
+  },
+  "ZAR": {
+    "singular": "Rand",
+    "plural": "Randes",
+    "subunit": {
+      "singular": "Centavos",
+      "plural": "Centavos"
+    }
+  },
+  "USD": {
+    "singular": "Dólar",
+    "plural": "Dólares",
+    "subunit": {
+      "singular": "Centavos",
+      "plural": "Centavos"
     }
   }
 }

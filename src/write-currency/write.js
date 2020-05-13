@@ -14,7 +14,7 @@ export default (val, locale, opts, scale) => {
   const text = writeInt(val, locale, 'm', scale)
 
   if (number === 1) return `${text} ${opts.singular}`
-  if (number >= 1e+6) return `${text} de ${opts.plural}`
+  if (number >= 1e+6 && !(/[1-9].*[1-9]/.test(number))) return `${text} de ${opts.plural}` //!(/[1-9].*[1-9]/.test(number) is used to test if number has more than 1 digit above zero
 
   return `${text} ${opts.plural}`
 }

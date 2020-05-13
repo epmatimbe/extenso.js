@@ -72,7 +72,7 @@ export default (num, opts) => {
     || !isValidOpt(opts.locale, [ 'pt', 'br' ])
     || !isValidOpt(opts.negative, [ 'formal', 'informal' ])
     || !isValidOpt(opts.scale, [ 'short', 'long' ])
-    || !isValidOpt(opts.currency.type, [ 'BRL', 'EUR', 'ECV', 'MZN'])
+    || !isValidOpt(opts.currency.type, [ 'BRL', 'EUR', 'ECV', 'MZN','ZAR','USD'])
     || !isValidOpt(opts.number.gender, [ 'm', 'f' ])
     || !isValidOpt(opts.number.decimal, [ 'formal', 'informal' ])
   ) {
